@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.chrome/
+
+
+
+tmp
+coverage
+
+
+
+*log*
+*docx*
+**.orig
+*\.pdf
+.env
+vendor
