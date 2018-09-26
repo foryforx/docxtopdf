@@ -9,7 +9,7 @@ git clone https://github.com/karuppaiah/docxtopdf.git
 cd docxtopdf
 dep ensure // make sure https://github.com/aws/aws-sdk-go is installed
 apt-get install -y libreoffice // If linux env else install libreoffice for mac and put the executables in env PATH
-go run main.go // will show a sample of S3 put, pull and del
+go run main.go // will show a sample of S3 put, pull and del and also main1() for worker,dispatcher and collector pdf generator. Enable the respective main and view the sample
 
 
 ```
